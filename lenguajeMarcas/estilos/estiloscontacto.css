@@ -1,0 +1,48 @@
+.arriba{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(73, 73, 73);
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav a{
+    margin:20px;
+    color:white;
+    text-decoration: none;
+}
+
+.primera{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top:50px;
+}
+
+
+label {
+    padding:10px;
+    font-weight: bold;
+}
+
+.formulario2{
+    background-color: rgb(255, 255, 110);
+    width: 350px;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    padding:20px;
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color:black;
+    display:flex;
+    justify-content:space-between;
+    padding:15px;
+}

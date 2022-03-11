@@ -1,0 +1,48 @@
+.arriba{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(73, 73, 73);
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav a{
+    margin:20px;
+    color:white;
+    text-decoration: none;
+}
+
+.inicio{
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ven{
+    display:flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 150%;
+    margin:40px;
+}
+
+
+footer{
+    background-color:black;
+    display:flex;
+    justify-content:space-between;
+    padding:15px;
+}
+
+.contacto{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin:30px;
+}
+
